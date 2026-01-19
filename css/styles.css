@@ -41,17 +41,17 @@ body {
     font-style: normal;
 }
 
-.addres-list {}
+.address-list {}
 
-.addres-item {}
+.address-item {}
 
-.addres-link {
+.address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.addres-link:hover,
-.addres-link:focus,
+.address-link:hover,
+.address-link:focus,
 .list-item-link:hover,
 .list-item-link:focus {
 color: #404bbf;
@@ -180,17 +180,18 @@ color: #404bbf;
     text-decoration: none;
 }
 
-.portfolio-item a:hover,
-.portfolio-item a:focus {
-    text-decoration: underline;
-}
-
 .footer {
     background-color: #2e2f42;
 }
 
 .footer-link {
-    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
 .footer-text {
